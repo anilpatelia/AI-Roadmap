@@ -25,3 +25,5 @@ Practical books:
 | LLM Systems                 | Hands-On Large Language Models     |
 | AI Product Engineering      | AI Engineering by Chip Huyen       |
 | Production ML Systems       | Designing Machine Learning Systems |
+
+
