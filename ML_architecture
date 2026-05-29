@@ -1,0 +1,61 @@
+ml_app/
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   ├── interim/
+│   ├── external/
+│   └── synthetic/
+│
+├── data_validation/
+│   ├── schema_validation/
+│   ├── drift_detection/
+│   ├── anomaly_detection/
+│   └── quality_checks/
+│
+├── feature_engineering/
+│   ├── preprocessing/
+│   ├── transformations/
+│   ├── encoders/
+│   ├── scaling/
+│   ├── feature_selection/
+│   └── feature_generation/
+│
+├── feature_store/
+│   ├── offline/
+│   ├── online/
+│   ├── registries/
+│   └── transformations/
+│
+├── models/
+│   ├── regression/
+│   ├── classification/
+│   ├── clustering/
+│   ├── anomaly_detection/
+│   ├── recommendation/
+│   ├── time_series/
+│   └── ensembles/
+│
+├── training/
+│   ├── trainers/
+│   ├── distributed_training/
+│   ├── hyperparameter_tuning/
+│   ├── optimization/
+│   └── callbacks/
+│
+├── experimentation/
+│   ├── notebooks/
+│   ├── prototypes/
+│   ├── ablation_studies/
+│   └── benchmarks/
+│
+├── evaluation/
+│   ├── metrics/
+│   ├── validation/
+│   ├── explainability/
+│   ├── fairness/
+│   ├── robustness/
+│   └── reporting/
+│
+├── explainability/
+│   ├── shap/
+└── main.py
