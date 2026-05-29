@@ -1,0 +1,26 @@
+Core ML Lifecycle
+→ Data Collection
+→ Data Cleaning
+→ Feature Engineering
+→ Model Training
+→ Model Evaluation
+→ Model Deployment
+
+System Design
+→ Low-Level Design
+→ MLOps
+→ Observability & Reliability
+→ Testing Frameworks
+→ Security Basics
+
+| MLOps Area          | Includes                              |
+| ------------------- | ------------------------------------- |
+| Infrastructure      | cloud platforms, GPU clusters         |
+| Deployment          | CI/CD, inference serving              |
+| Orchestration       | pipelines, workflow management        |
+| Distributed Systems | scaling, queues, distributed training |
+| Reliability         | monitoring, alerting, rollback        |
+| Cost Optimization   | GPU utilization, batching, caching    |
+| Security            | secrets, authentication, permissions  |
+| Experimentation     | model/version tracking                |
+| Automation          | retraining pipelines                  |
