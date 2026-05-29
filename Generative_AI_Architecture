@@ -23,3 +23,225 @@ app/
 ├── caching/
 │
 └── main.py
+
+Detailed architecture
+
+app/
+├── agents/
+│   ├── planners/
+│   ├── executors/
+│   ├── coordinators/
+│   ├── evaluators/
+│   ├── retrievers/
+│   └── tool_agents/
+│
+├── orchestration/
+│   ├── workflows/
+│   ├── state_management/
+│   ├── routing/
+│   ├── schedulers/
+│   ├── graph_execution/
+│   └── event_bus/
+│
+├── llms/
+│   ├── providers/
+│   ├── embeddings/
+│   ├── tokenizers/
+│   ├── inference/
+│   ├── fine_tuning/
+│   ├── prompt_chains/
+│   └── model_registry/
+│
+├── reliability/
+│   ├── retries/
+│   ├── fallback/
+│   ├── guardrails/
+│   ├── validators/
+│   ├── rate_limiters/
+│   ├── circuit_breakers/
+│   └── recovery/
+│
+├── api/
+│   ├── routes/
+│   ├── middleware/
+│   ├── dependencies/
+│   ├── schemas/
+│   ├── authentication/
+│   └── websocket/
+│
+├── async_tasks/
+│   ├── workers/
+│   ├── queues/
+│   ├── schedulers/
+│   ├── consumers/
+│   └── producers/
+│
+├── database/
+│   ├── postgres/
+│   ├── vector_db/
+│   ├── migrations/
+│   ├── repositories/
+│   └── sessions/
+│
+├── memory/
+│   ├── short_term/
+│   ├── long_term/
+│   ├── episodic/
+│   ├── semantic/
+│   └── conversation_history/
+│
+├── storage/
+│   ├── documents/
+│   ├── blobs/
+│   ├── object_store/
+│   ├── backups/
+│   └── artifacts/
+│
+├── tools/
+│   ├── web_search/
+│   ├── calculators/
+│   ├── retrieval_tools/
+│   ├── external_apis/
+│   ├── code_execution/
+│   └── adapters/
+│
+├── evaluation/
+│   ├── benchmarks/
+│   ├── rag_eval/
+│   ├── hallucination/
+│   ├── latency/
+│   ├── regression_tests/
+│   └── human_feedback/
+│
+├── observability/
+│   ├── logging/
+│   ├── metrics/
+│   ├── tracing/
+│   ├── dashboards/
+│   └── alerts/
+│
+├── infrastructure/
+│   ├── docker/
+│   ├── kubernetes/
+│   ├── terraform/
+│   ├── helm/
+│   ├── ci_cd/
+│   └── deployment/
+│
+├── security/
+│   ├── encryption/
+│   ├── secrets/
+│   ├── permissions/
+│   ├── audit/
+│   ├── sanitization/
+│   └── compliance/
+│
+├── prompts/
+│   ├── system/
+│   ├── templates/
+│   ├── versions/
+│   ├── evaluations/
+│   └── optimizations/
+│
+├── configs/
+│   ├── environments/
+│   ├── feature_flags/
+│   ├── model_configs/
+│   └── runtime/
+│
+├── core/
+│   ├── constants/
+│   ├── exceptions/
+│   ├── utilities/
+│   ├── base_classes/
+│   └── shared/
+│
+├── domain/
+│   ├── entities/
+│   ├── services/
+│   ├── business_rules/
+│   └── interfaces/
+│
+├── pipelines/
+│   ├── ingestion/
+│   ├── preprocessing/
+│   ├── retrieval/
+│   ├── indexing/
+│   ├── training/
+│   └── inference/
+│
+├── experiments/
+│   ├── prototypes/
+│   ├── ablations/
+│   ├── notebooks/
+│   └── research/
+│
+├── datasets/
+│   ├── raw/
+│   ├── processed/
+│   ├── synthetic/
+│   └── validation/
+│
+├── monitoring/
+│   ├── drift_detection/
+│   ├── anomaly_detection/
+│   ├── health_checks/
+│   └── usage_tracking/
+│
+├── feature_store/
+│   ├── offline/
+│   ├── online/
+│   ├── transformations/
+│   └── registries/
+│
+├── serving/
+│   ├── batch/
+│   ├── realtime/
+│   ├── streaming/
+│   └── gateways/
+│
+├── multimodal/
+│   ├── vision/
+│   ├── audio/
+│   ├── documents/
+│   └── video/
+│
+├── telemetry/
+│   ├── events/
+│   ├── analytics/
+│   ├── usage/
+│   └── collectors/
+│
+├── caching/
+│   ├── redis/
+│   ├── semantic_cache/
+│   ├── response_cache/
+│   └── embedding_cache/
+│
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   ├── e2e/
+│   ├── load/
+│   ├── security/
+│   └── evaluation/
+│
+├── docs/
+│   ├── architecture/
+│   ├── api_docs/
+│   ├── runbooks/
+│   ├── diagrams/
+│   └── decisions/
+│
+├── scripts/
+│   ├── setup/
+│   ├── migrations/
+│   ├── deployment/
+│   └── maintenance/
+│
+├── cli/
+│   ├── commands/
+│   ├── admin/
+│   └── debugging/
+│
+└── main.py
