@@ -1,1 +1,51 @@
-
+nlp_app/
+├── datasets/
+│   ├── raw/
+│   ├── processed/
+│   ├── annotated/
+│   ├── multilingual/
+│   └── synthetic/
+│
+├── ingestion/
+│   ├── pdf/
+│   ├── docx/
+│   ├── html/
+│   ├── email/
+│   ├── web_scraping/
+│   └── streaming/
+│
+├── preprocessing/
+│   ├── tokenization/
+│   ├── normalization/
+│   ├── stemming/
+│   ├── lemmatization/
+│   ├── stopwords/
+│   ├── sentence_segmentation/
+│   └── cleaning/
+│
+├── embeddings/
+│   ├── word2vec/
+│   ├── glove/
+│   ├── fasttext/
+│   ├── transformer_embeddings/
+│   └── vector_storage/
+│
+├── transformers/
+│   ├── bert/
+│   ├── gpt/
+│   ├── t5/
+│   ├── llama/
+│   ├── mistral/
+│   └── fine_tuned_models/
+│
+├── tasks/
+│   ├── summarization/
+│   ├── question_answering/
+│   ├── translation/
+│   ├── sentiment_analysis/
+│   ├── text_classification/
+│   ├── named_entity_recognition/
+│   ├── information_extraction/
+│   ├── topic_modeling/
+│   ├── speech_to_text/
+└── main.py
