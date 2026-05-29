@@ -1,0 +1,25 @@
+Project Architecture Folder
+
+app/
+├── agents/
+├── orchestration/
+├── llms/
+├── reliability/
+├── api/
+├── async_tasks/
+├── database/
+├── memory/
+├── storage/
+├── tools/
+├── evaluation/
+├── observability/
+├── infrastructure/
+├── security/
+├── prompts/
+├── configs/
+├── core/
+├── tests/
+├── telemetry/
+├── caching/
+│
+└── main.py
